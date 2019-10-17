@@ -1,0 +1,77 @@
+1)-------------------------------------------------
+x=int(input("ingrese el valor de la 1°pelicula"))
+y=int(input("ingrese el valor de la 2°pelicula"))
+z=int(input("ingrese el valor de la 3°pelicula"))
+
+if x==y and y==z:
+    print(x+y)
+elif x >y and x>z:
+    print(y+z)
+elif x >y and x<z:
+    print(y+x)
+elif x >y and y>z:
+    print(y+z)
+elif x >y and y>z and y==z:
+    print(y+z)
+elif x <y and y<z:
+    print(y+x)
+elif x <y and y<z and y==z:
+    print(y+x)
+elif x <y and y>z:
+    print(x+z)
+else:
+    print(x+z)
+2)-----------------------------------------------
+x=int(input("ingrese el valor"))
+
+for i in range(1,x+1):
+   
+    print((str(i)+" ")*i)    
+3)-----------------------------------------------
+n=int(input("ingrese un par: "))
+
+x= (n%2);
+
+contador=0
+while a != N
+
+if x==0:
+    print("Escriba un número par: ")
+else:
+    print(str(n) +" No es par, Intente de nuevo: ")
+
+a=int(input("ingrese un par: "))
+
+if a != N:
+    print("¿Quieres escribir otro número par?")
+else:
+    print("Has hecho: "+str(contador)+" intentos.")    
+4)------------------------------------------------------------
+from random import *
+x = randrange(0,10)
+
+n=int(input("ingrese el valor"))
+
+contador=0
+while n != x:
+    if x == n:
+        print("Has adivinado")
+    elif x > n:
+        print("Es menor al número aleatorio")
+    else:
+        print("Es mayor al número aleatorio")
+    contador=contador+1    
+    n=int(input())
+   
+print("Has hecho: "+str(contador)+" intentos")    
+6)---------------------------------------------------------------
+x=int(input("ingrese el número: "))
+
+'''Esto hace que lo comvierte en string y lo invierte'''
+print(str(x)[::-1])    
+7)-------------------------------------------------------------
+n=int(input("ingrese el valor"))
+
+for i in range(1,n+1):
+   
+    print((("*")+" ")*n) 
